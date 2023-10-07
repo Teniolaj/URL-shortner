@@ -1,0 +1,356 @@
+body{
+    padding: .5rem;
+    overflow-x: hidden;
+    font-family: Poppins;
+}
+
+heading{
+    display: flex;
+    max-width: 90vw;
+    width: 100%;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+heading img{
+    object-fit: contain;
+}
+
+heading ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+heading ul li{
+    padding: 1rem;
+    cursor: pointer;
+    color: hsl(0, 0%, 75%);
+    font-weight: bold;
+}
+
+heading ul li:hover{
+    color: hsl(255, 11%, 22%);
+}
+
+heading #Btns{
+    display: flex;
+    margin-left: 35rem;
+}
+
+heading .btn{
+    border: none;
+    color: grey;
+    background-color: transparent;
+    padding: 1rem 1.5rem;
+    margin-right: .5rem;
+    border-radius: 2rem;
+    font-size: .8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+heading .btn:hover{
+    color: #fff;
+    background-color: lightblue;
+}
+
+section1{
+    max-width: 100vw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    margin-bottom: 3rem;
+    padding-left: 4rem;
+}
+
+.right-section{
+    margin-left: 0rem;
+}
+
+.left-section h1{
+    font-size: 5rem;
+    color: hsl(255, 11%, 22%);
+    margin-bottom: 1rem;
+    line-height: 5rem;
+}
+
+.left-section h2{
+    font-size: 2rem;
+    color: hsl(255, 11%, 22%);
+    margin-bottom: 1rem;
+}
+
+.left-section button{
+    border: none;
+    color: grey;
+    background-color: transparent;
+    padding: 1rem 2.5rem;
+    margin-top: .7rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.left-section button:hover{
+    color: #fff;
+    background-color: lightblue;
+}
+
+section2{
+    max-width: 100vw;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    width: 100%;
+    background-color: hsl(257, 27%, 26%);
+    padding: 2rem;
+    border-radius: .5rem;
+    margin: 0rem 8rem;
+}
+
+.user-form{
+    display: flex;
+    justify-content: center;
+}
+
+.error-message{
+    color: red;
+    display: none;
+    font-size: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 0px;
+}
+
+.active{
+    display: block;
+}
+
+form input{
+    width: 80%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form button{
+    padding: .5rem 2rem;
+    margin-left: 1rem;
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.links{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.link{
+    overflow: hidden;
+    max-width: 73.5vw;
+    width: 100%;
+    background-color:  hsl(0, 0%, 75%);
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 51.5vw 14.7vw 7.35vw;
+    padding: 1rem .5rem;
+    margin: 0rem 8rem;
+    border-radius: .5rem;
+}
+
+.link #original-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(257, 27%, 26%);
+}
+
+.link #shortened-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.copy-btn{
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    border: none;
+    padding: .5rem .5rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section3{
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section3 h2{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    font-weight: 900;
+    color: hsl(257, 27%, 26%);
+}
+
+section3 h4{
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-weight: 900;
+    color: hsl(0, 0%, 75%);
+}
+
+section4{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.card{
+    width: 15rem;
+    height: 10rem;
+    border: 5px solid aqua;
+    padding: 1rem;
+    margin-right: 5rem;
+    border-radius: .5rem;
+}
+
+.card h3{
+    color: hsl(257, 27%, 26%);
+    font-weight: bold;
+}
+
+.card text{
+    color: hsl(0, 0%, 75%)
+}
+
+#img-container{
+    background:  hsl(257, 27%, 26%);
+    width: 3rem;
+    height: 3rem;
+    padding: .2rem;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-container img{
+   height: 2rem;
+   width: 2rem;
+}
+
+.card2{
+    margin-top: 3rem;
+}
+
+.card3{
+    margin-top: 6rem;
+}
+
+section5{
+    background-image: url('bg-boost-desktop.svg');
+    display: block;
+    width: 100vw;
+    height: 30vh;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    background-color:hsl(257, 27%, 26%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+section5 button{
+    background-color:  hsl(180, 66%, 49%);
+    color: #fff;
+    padding: .7rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer{
+    width: 100vw;
+    background-color: hsl(260, 8%, 14%);
+    color: #fff;
+    display: grid;
+    padding: 1rem 2rem;
+    grid-template-columns: 20% 80%;
+}
+
+footer #footer-left{
+    padding-left: 5rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+footer #footer-left img{
+    object-fit: contain;
+}
+
+footer #footer-right{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 13rem);
+    column-gap: 1rem;
+    padding: 2rem;
+}
+
+.footer-specific-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-specific-info h3{
+    margin-left: 2.7rem;
+    margin: none;
+    padding: none;
+}
+
+.footer-specific-info ul{
+    margin-top: none;
+    padding-top: none;
+}
+
+.footer-specific-info li{
+    list-style-type: none;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.footer-specific-info li:hover{
+    color: hsl(180, 66%, 49%);
+}
+
+#social-media-icons img{
+    /* display: flex; */
+    padding-right: 1rem;
+    object-fit: contain;
+}
